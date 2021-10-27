@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exercício 17</title> 
+    <script language="javascript">
+    //questão 17
+         function Tabuada()
+         { var numero;
+           numero = document.frmTabuada.num.value;
+           for(i=1; i<=10; i++)
+           document.write("<h1>",numero, " x ", i, " = ",i*numero,"</h1>");
+         }
+        </script>
+  </head>
+<body>
+  <form name="frmTabuada">
+    <h1> Digite um número positivo: <input type="number" name="num"></h1><br>
+    <h1><input type="button" value="Mostrar tabuada" onclick="Tabuada();"></h1><br><br>
+    </form>
+  </body>
+</html>
